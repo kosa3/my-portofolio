@@ -8,12 +8,11 @@ class Footer extends React.Component {
                 <section>
                     <dl className="alt">
                         <dt>Email</dt>
-                        <dd><Link href="#" ><a href="#">suga.tech3@gmail.com</a></Link></dd>
+                        <dd><Link href="mailto:suga.tech3@gmail.com" ><a>suga.tech3@gmail.com</a></Link></dd>
                     </dl>
                     <ul className="icons">
-                        <li><Link href="#" ><a className="icon fa-twitter alt"><span className="label">Twitter</span></a></Link></li>
-                        <li><Link href="#" ><a className="icon fa-facebook alt"><span className="label">Facebook</span></a></Link></li>
-                        <li><Link href="#" ><a href="#" className="icon fa-github alt"><span className="label">GitHub</span></a></Link></li>
+                        <li><Link href="https://twitter.com/kosachan3" ><a target="_blank" className="icon fa-twitter alt"><span className="label">Twitter</span></a></Link></li>
+                        <li><Link href="https://github.com/kosa3" ><a target="_blank" className="icon fa-github alt"><span className="label">GitHub</span></a></Link></li>
                     </ul>
                 </section>
             </footer>
