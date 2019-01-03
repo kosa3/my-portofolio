@@ -14,7 +14,7 @@ class Intro extends React.Component {
                         <p>新卒4年目でサーバーサイドをメインにフロントエンド、インフラ周り勉強中です。</p>
                         <p>技術面やPRは以下の詳細ページへ...</p>
                         <ul className="actions">
-                            <li><Link href="generic.html"><a className="button">Read More</a></Link></li>
+                            <li><Link href="/about"><a className="button">Read More</a></Link></li>
                         </ul>
                     </div>
                     <span className="image"><img src="/static/images/main.jpg" alt=""/></span>
