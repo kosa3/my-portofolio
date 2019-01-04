@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const firebase = axios.create({
-    baseURL: 'your firebase app url'
+    baseURL: 'https://myportfolio-c72d5.firebaseio.com/'
 });
 
 export default firebase;
